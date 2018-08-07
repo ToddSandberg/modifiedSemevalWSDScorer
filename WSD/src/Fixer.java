@@ -5,8 +5,8 @@ import java.util.Scanner;
 class Fixer{
 	public static void main(String [] args) {
 		try {
-			Scanner scan = new Scanner(new File("Semeval_Gold_Keys/semeval-2015-task-13-en-n.key"));
-			PrintWriter printer = new PrintWriter(new File("Semeval_Gold_Keys/semeval-2015-task-13-en-n-wn.key"));
+			Scanner scan = new Scanner(new File("Semeval_Gold_Keys/semeval-2015-task-13-en-a.key"));
+			PrintWriter printer = new PrintWriter(new File("Semeval_Gold_Keys/semeval-2015-task-13-en-a-wn.key"));
 			while(scan.hasNextLine()) {
 				String line = scan.nextLine();
 				String [] s = line.split("\t");

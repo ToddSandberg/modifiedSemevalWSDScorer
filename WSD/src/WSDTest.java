@@ -76,7 +76,7 @@ Roberto Navigli (navigli@di.uniroma1.it)
 public class WSDTest {
 	public static void main(String [] args) {
 		try {
-			Scorer.main(new String[] {"Semeval_Gold_Keys/semeval-2015-task-13-en-n-wn.key","System_Keys/popcontestfulltriplet.key"});
+			Scorer.main(new String[] {"Semeval_Gold_Keys/semeval-2015-task-13-en-a-wn.key","System_Keys/oxfordDisambiguateScoreMoakeV2.key"});
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
