@@ -1,6 +1,6 @@
 # modifiedSemevalWSDScorer
 
-Scores based on if the sense provided is contained in the correct senses. You don't need to provide every sense of the word.
+This project is a modified scorer for Semeval 2015 task 13 to accommodate for disambiguation to a single wordnet sense. Scores are based on if the sense provided is contained in the correct senses. You don't need to provide every possible sense. Also contains golden keys that contain only wordnet disambiguated senses. These files are marked with 'wn' in the name.
 
 ### How to use
 
